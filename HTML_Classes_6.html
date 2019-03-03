@@ -4,18 +4,21 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <title>HTML Forms</title>
+    <title>Password Input</title>
   </head>
   <body>
     <section id="overlay">
       <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
       <hr>
-      <!--Add your code below-->
-     		<form action="/practice.html" method = "Post">
-          <h1>Ouvert tous les jours 24/7</h1>
-          	<p>Specialite hebdomadaire et saisonniere. Pains de differentes varietes : sesame, seigle,ble, sans gluten....<br>N'hesitez pas a demander aux serveurs.</p>
-      	</form>
-      
+      <form>
+        <h1>Login to start creating a burger!</h1>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="user-pw">Password:</label>
+        <!--Add your code below-->
+        <input type="password" name="user-pw" id="user-pw">
+      </form>
     </section>
   </body>
 </html>
